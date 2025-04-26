@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Portfolio</title>
+  <style>
+    /* Reset default margins */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #FF6600; /* Orange */
+      color: white;
+      padding: 1rem 0;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+
+    nav {
+      background: #333;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 0.8rem 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 0.5rem;
+      transition: background 0.3s, color 0.3s;
+    }
+
+    nav a:hover {
+      background: #FF6600; /* Orange on hover */
+      border-radius: 5px;
+      color: #fff;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: 2rem auto;
+      background: #fff;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    h2 {
+      margin-bottom: 1rem;
+      color: #FF6600; /* Orange for headings */
+      font-size: 2rem;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 1rem;
+    }
+
+    ul li {
+      margin-bottom: 0.8rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #333;
+      color: #fff;
+      margin-top: 2rem;
+      font-size: 0.9rem;
+    }
+
+    a {
+      color: #FF6600;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+        gap: 1rem;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      h2 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header id="top">
+  <h1>Josith Ganesan</h1>
+  <p>Electronics & Communication | Programmer</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#education">Education</a>
+  <a href="#experience">Experience</a>
+  <a href="#skills">Skills</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>Hello! I’m an Electronics Engineer and Programmer with a passion for building innovative solutions at the intersection of hardware and software.
+    I love designing electronic circuits, working with embedded systems, and developing efficient programs to solve real-world problems.
+    Always eager to learn and explore new technologies, I enjoy combining creativity with technical expertise to create impactful projects.</p>
+</section>
+
+<section id="education">
+  <h2>Education</h2>
+  <ul>
+    <li><strong>Bachelor of Technology in Electronics and Communication</strong><br>SASTRA University , 2023 - 2027</li>
+    <li><strong>High School</strong><br>SSVM, Graduated 2023 PCM (88 % Average)</li>
+  </ul>
+</section>
+
+<section id="experience">
+  <h2>Experience</h2>
+  <ul>
+    <li><strong>Jr Dev</strong><br>Samsung developer and modding community, Sep 2023 - Mar 2025 [1 yr 6 mo]</li>
+  </ul>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <ul>
+    <li>Embedded Linux</li>
+    <li>Embedded C</li>
+    <li>Linux Shell</li>
+    <li>ROS</li>
+    <li>Git & GitHub</li>
+  </ul>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:josithg02@gmail.com">josithg02@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/josithg/" target="_blank">LinkedIn</a></p>
+    <p>GitHub: <a href="https://github.com/josithg" target="_blank">GitHub</a></p>
+    <p>Self made linktree: <a href="https://josithg.github.io/main/" target="_blank">linktree</a></p>
+  </section>
+  
+<footer>
+  &copy; 2025 JOSITHG. All Rights Reserved.
+</footer>
+
+</body>
+</html>
